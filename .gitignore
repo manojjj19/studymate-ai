@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Model checkpoints and weights (Do not commit large models)
+models/
+model_weights/
+.cache/
+huggingface/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local User Data and Uploads (Never commit student PDFs or private study logs)
+data/
+uploads/
+*.pdf
+progress_data.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
